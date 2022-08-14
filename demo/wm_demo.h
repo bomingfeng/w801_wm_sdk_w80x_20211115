@@ -14,7 +14,7 @@
 #define DEMO_UDP                    (DEMO_OFF && DEMO_CONSOLE)
 
 //connect demo
-#define DEMO_CONNECT_NET			(DEMO_OFF && DEMO_CONSOLE)
+#define DEMO_CONNECT_NET			(DEMO_ON && DEMO_CONSOLE)
 
 #define DEMO_SOCKET_CLIENT_SERVER   (DEMO_OFF && DEMO_CONSOLE)
 

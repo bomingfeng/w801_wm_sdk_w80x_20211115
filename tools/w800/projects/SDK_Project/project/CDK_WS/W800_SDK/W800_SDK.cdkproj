@@ -1121,12 +1121,8 @@
         </File>
       </VirtualDirectory>
       <VirtualDirectory Name="factorycmd">
-        <File Name="../../../../../../../src/app/factorycmd/factory_atcmd.c">
-          <FileOption/>
-        </File>
-        <File Name="../../../../../../../src/app/factorycmd/factory_atcmd.h">
-          <FileOption/>
-        </File>
+        <File Name="../../../../../../../src/app/factorycmd/factory_atcmd.c"/>
+        <File Name="../../../../../../../src/app/factorycmd/factory_atcmd.h"/>
       </VirtualDirectory>
     </VirtualDirectory>
     <VirtualDirectory Name="network">
@@ -3277,7 +3273,7 @@
       <Output>
         <OutputName>w800</OutputName>
         <Type>Executable</Type>
-        <CreateHexFile>yes</CreateHexFile>
+        <CreateHexFile>no</CreateHexFile>
         <CreateBinFile>yes</CreateBinFile>
         <Preprocessor>no</Preprocessor>
         <Disassmeble>yes</Disassmeble>
