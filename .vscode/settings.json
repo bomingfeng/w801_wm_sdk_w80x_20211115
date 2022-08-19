@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "wm_include.h": "c",
+        "wm_config.h": "c",
+        "wm_os_config.h": "c"
+    }
+}

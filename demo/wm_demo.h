@@ -19,19 +19,19 @@
 #define DEMO_SOCKET_CLIENT_SERVER   (DEMO_OFF && DEMO_CONSOLE)
 
 //apsta demo
-#define DEMO_APSTA   		  		(DEMO_OFF && DEMO_CONSOLE)
+#define DEMO_APSTA   		  		(DEMO_ON && DEMO_CONSOLE)
 
 //Uart rx&tx demo
 #define DEMO_UARTx   		  		(DEMO_OFF && DEMO_CONSOLE)
 
 //AP dmeo
-#define DEMO_SOFT_AP   		  		(DEMO_OFF && DEMO_CONSOLE)
+#define DEMO_SOFT_AP   		  		(DEMO_ON && DEMO_CONSOLE)
 
 //WPS demo
 #define DEMO_WPS					(DEMO_OFF && DEMO_CONSOLE && TLS_CONFIG_WPS && TLS_IEEE8021X_EAPOL)
 
 //gpio demo
-#define DEMO_GPIO					(DEMO_OFF && DEMO_CONSOLE)
+#define DEMO_GPIO					(DEMO_ON && DEMO_CONSOLE)
 
 //flash demo
 #define DEMO_FLASH					(DEMO_OFF && DEMO_CONSOLE)
@@ -46,7 +46,7 @@
 #define DEMO_RSA					(DEMO_OFF && DEMO_CONSOLE)
 
 //rtc demo
-#define DEMO_RTC					(DEMO_OFF && DEMO_CONSOLE)
+#define DEMO_RTC					(DEMO_ON && DEMO_CONSOLE)
 
 //timer demo
 #define DEMO_TIMER					(DEMO_OFF && DEMO_CONSOLE)
@@ -61,7 +61,7 @@
 #define DEMO_PMU					(DEMO_OFF && DEMO_CONSOLE)
 
 //ntp demo
-#define DEMO_NTP					(DEMO_OFF && DEMO_CONSOLE)
+#define DEMO_NTP					(DEMO_ON && DEMO_CONSOLE)
 
 //i2s demo
 #define DEMO_I2S					(DEMO_OFF && DEMO_CONSOLE)
@@ -85,10 +85,10 @@
 #define DEMO_WEBSOCKETS				(DEMO_OFF && DEMO_CONSOLE)
 
 //http demo
-#define DEMO_HTTP					(DEMO_OFF && DEMO_CONSOLE)
+#define DEMO_HTTP					(DEMO_ON && DEMO_CONSOLE)
 
 #define DEMO_SCAN					(DEMO_OFF && DEMO_CONSOLE)
-#define DEMO_HTTPS                  (DEMO_OFF && DEMO_CONSOLE)
+#define DEMO_HTTPS                  (DEMO_ON && DEMO_CONSOLE)
 #define DEMO_MQTT                   (DEMO_OFF && DEMO_CONSOLE)
 #define DEMO_SDIO_HOST              (DEMO_OFF && DEMO_CONSOLE)
 #define DEMO_FATFS                  (DEMO_OFF && DEMO_CONSOLE)
